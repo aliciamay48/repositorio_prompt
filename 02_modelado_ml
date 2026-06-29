@@ -1,1 +1,19 @@
+🤖 Plantilla: Entrenamiento de Modelos de Clasificación
 
+Modelo de Prompting utilizado: R-I-T-A.
+Objetivo:Crear un script rápido para entrenar un modelo básico de Machine Learning.
+
+📝 Copia el siguiente texto en la IA:
+Actúa como un Científico de Datos Senior. Necesito crear un pipeline básico para entrenar un modelo 
+de clasificación con Scikit-learn.
+Trabajaré con un DataFrame de Pandas. Mi variable objetivo (la que quiero predecir) es: [VARIABLE_OBJETIVO] 
+y mis variables predictoras son: [VARIABLES_PREDICTORAS].
+Tarea:
+Generar un script en Python que realice lo siguiente:
+1. Divida los datos en conjuntos de entrenamiento y prueba (train/test split).
+2. Entrene un modelo de [ALGORITMO: Ej. Random Forest, Regresión Logística].
+3. Evalúe el modelo imprimiendo la precisión (Accuracy) y la Matriz de Confusión.
+
+Restricciones:
+- El código debe estar documentado paso a paso.
+- Incluye las librerías necesarias de `sklearn`.
