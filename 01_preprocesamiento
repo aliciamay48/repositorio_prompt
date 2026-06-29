@@ -1,1 +1,19 @@
+📊 Plantilla: Detección de Outliers (Método IQR)
 
+Modelo de Prompting utilizado: R-I-T-A (Rol, Información, Tarea, Adaptabilidad).
+Objetivo:Generar una función en Python para detectar registros atípicos en un dataset.
+📝 Copia el siguiente texto en la IA:con amplia experiencia en Python. Tu objetivo es proporcionar 
+código eficiente, documentado y alineado con las mejores prácticas.
+Trabajaré con datos en formato [FORMATO_DATOS: Ej. DataFrame de Pandas, CSV o Excel]. 
+Tarea:
+Generar una función en Python para detectar valores atípicos utilizando el método IQR (Rango Intercuartílico)
+sobre las siguientes columnas numéricas: [COLUMNAS_A_ANALIZAR: Ej. 'Precio', 'Edad'].
+Restricciones del proyecto:
+- Los datos pueden contener valores nulos; la función debe manejarlos sin romperse.
+- El código debe estar completamente comentado en español.
+- Prioriza la eficiencia (usa operaciones vectorizadas de Pandas/NumPy si es posible).
+- Debe ser compatible con Python 3.x.
+
+Formato de Salida requerido:
+Devuelve una breve explicación del procedimiento matemático, el código de la función listo para producción y 
+un ejemplo de uso con datos de prueba sintéticos.
